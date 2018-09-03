@@ -14,6 +14,6 @@ Response resp = RestAssured.get("http://localhost:3000/posts");
 int statusCode = resp.getStatusCode();
 System.out.println(statusCode);
 System.out.println( resp.getContentType());
-
+//2nd commit
 }
 }
